@@ -6,7 +6,9 @@
 
 ## 3. Enter npm install or npm i to install all the dependencies required for the project
 
-## 4. After the installation of dependencies type in the same folder(where package.json is existing) type npm start
+## 4. Assign the api key in the given double quote to the variable API_Key at line number 7 in the App.js file 
 
-## 5. This will run the project locally in dev mode
+## 5. After that go the same folder(where package.json is existing) type npm start
+
+## 6. This will run the project locally in dev mode
 

@@ -4,7 +4,7 @@ import "weather-icons/css/weather-icons.css";
 import Form from "./Components/form";
 import Weather from "./Components/weather";
 
-const API_Key = "8bb18ecc4206d7013f308b839d8f71b5";
+const API_Key = "";
 
 class App extends React.Component {
   constructor(props) {
