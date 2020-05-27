@@ -92,7 +92,11 @@ class App extends React.Component {
         this.getWeatherIcon(this.weatherIcon, apiResponse.weather[0].id);
       }
     } else {
-      if (country === "") {
+      if (country === "" && city==="") {
+        alert("city and country name should not be empty");
+      }else if(city===""){
+        alert("city should not be empty");
+      }else{
         alert("Country name should not be empty");
       }
       this.setState({
@@ -118,7 +122,6 @@ class App extends React.Component {
       <>
         <Form
           loadWeather={this.getWeatherData}
-          error={error}
           loading={loading}
         />
         <Weather

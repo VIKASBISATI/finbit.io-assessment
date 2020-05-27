@@ -33,7 +33,7 @@ class Form extends Component {
     this.props.loadWeather(city, country);
   };
   render() {
-    const { error, loading, classes } = this.props;
+    const { loading, classes } = this.props;
     const { country } = this.state;
     return (
       <div className="form-container">
@@ -53,8 +53,6 @@ class Form extends Component {
             variant="outlined"
             value={country}
             onChange={this.handleInputChange}
-            helperText={error && country === "" ? "Country Can't be empty" : ""}
-            error={error && country === "" ? true : false}
           />
         </div>
         <div>
