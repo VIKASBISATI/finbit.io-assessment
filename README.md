@@ -1,12 +1,12 @@
-## Steps to run the project
+## Steps to run the project :-
 
-## Git clone or download the project
+## 1. Git clone or download the project
 
-## Once the clone or download get's completed then go to the folder where package.json exists
+## 2. Once the clone or download get's completed then go to the folder where package.json exists
 
-## Enter npm install or npm i to install all the dependencies required for the project
+## 3. Enter npm install or npm i to install all the dependencies required for the project
 
-## After the installation of dependencies type in the same folder(where package.json is existing) type npm start
+## 4. After the installation of dependencies type in the same folder(where package.json is existing) type npm start
 
-## This will run the project locally in dev mode
+## 5. This will run the project locally in dev mode
 
